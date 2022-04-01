@@ -18,11 +18,11 @@
 
     .footer-link{
         text-decoration: none;
-        color: red;
+        color: grey;
     }
 
     .footer-link:hover{
-        color: aquamarine;
+        color: rgb(38, 187, 164); 
     }
 
     .padding-top-lg {
@@ -55,20 +55,33 @@
         margin-right: auto; 
     }
     
-    .btn{
+    .btn-1{
         display: inline;
-        color: red;
+        color: white; 
         font-weight: 500;
         font-size: 20px;
-        background-color: green;
+        background-color: rgb(38, 187, 164);
         border: none;
-        border-radius: 15px;
+        border-radius: 25px;
         padding: 12px 16px;
         cursor: pointer;
-        text-align: center;
+        text-decoration: none;
+    }
+
+    .btn-2{
+        display: inline;
+        color: white; 
+        font-weight: 500;
+        font-size: 20px;
+        background-color: rgb(130, 130, 226);
+        border: none;
+        border-radius: 25px;
+        padding: 12px 16px;
+        cursor: pointer;
+        text-decoration: none;
     }
     .btn:hover{
-        background: black;
+        /* background: black; */
     }
 
     #footerimg{
@@ -77,6 +90,10 @@
 
     .footer {
 
+    }
+
+    .gray-footer{
+        background-color: #f3f0f0;
     }
 
     .hero-image {
@@ -99,80 +116,81 @@
 
             <div class="section a hero-image padding-top-lg">
                 <img src="./images/logo.svg"; class="center">
-                <h1 class="center-text">A history of everything you copy</h1>
+                <h1 class="center-text margin-top-sm">A history of everything you copy</h1>
 
                 <p class="center-text gray-text">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your device.</p>
-                
-
-                <!--- <a class="btn">Download Now</a>--->
-
-                    <a class="btn">Download for iOS</a>
-
-
-                    <a class="btn">Download for Mac</a>
             </div>
 
+                <!--- <a class="btn">Download Now</a>--->
+             <section class="margin-top-md">
+                    <a class="btn-1">Download for iOS</a>
+
+
+                    <a class="btn-2">Download for Mac</a>
+             </section>
+            
+
             <div class="section b">
-                            <h1 class="center-text">Keep track of your snippets</h1>
+                            <h2 class="center-text margin-top-sm">Keep track of your snippets</h2>
 
                 <p class="center-text gray-text">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will helps you organize everything.</p>
 
             </div>
 
             <div class="section c">
-                <img src="./images/image-computer.png" class="center img-fluid">
+                <img src="./images/image-computer.png" class="center img-fluid margin-top-sm">
     
 
-                <h1 class="center-text">Quick Search</h1>
+                <h2 class="center-text">Quick Search</h2>
                 
                 <p class="center-text gray-text">Easily search your snippets by content, category, web address, application, and more.</p>
                 
-                <h1 class="center-text">iCloud Sync</h1>
+                <h2 class="center-text">iCloud Sync</h2>
                 
                 <p class="center-text gray-text">Instantly saves and syncs snippets across all your devices.</p>
                 
 
-                <h1 class="center-text">Complete History</h1>
+                <h2 class="center-text">Complete History</h2>
                 <p class="center-text gray-text">Retrieve any snippets from the first moment you started using the app.</p>
 
             </div>
 
             <div class="section d">
-                 <h1 class="center-text">Access Clipboard Anywhere</h1>
+                 <h2 class="center-text margin-top-md">Access Clipboard Anywhere</h2>
                 <p class="center-text gray-text">Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
                 </p>
 
             </div>
 
-            <div class="section e">
+            <div class="section e margin-top-md">
                 <img src="./images/image-devices.png" class="center img-fluid">
 
             </div>
 
             <div class="section f">
-                <h1 class="center-text">Supercharge your workflow</h1>
+                <h2 class="center-text margin-top-md">Supercharge your workflow</h2>
                 <p class="center-text gray-text">We've got the tools to boost your productivity.</p>
 
             </div>
 
             <div class="section g">
-                <div class="container">
+                <div class="container margin-top-sm">
                     <div class="row">
                       <div class="col col-sm-12 col-md-4">
                         <img src="./images/icon-blacklist.svg" class="center">
-                        <h1>Create blacklists</h1>
+                        <h2>Create blacklists</h2>
                         <p class="gray-text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
                         
                       </div>
                       <div class="col col-sm-12 col-md-4">
                         <img src="./images/icon-text.svg" class="center">
-                        <h1>Plain text snippets</h1>
+                        <h2>Plain text snippets</h2>
                         <p class="gray-text">Remove unwanted formatting from copied text for a consistent look.</p>
                         
                       </div>
                       <div class="col col-sm-12 col-md-4">
                         <img src="./images/icon-preview.svg" class="center" alt="">
-                        <h1>Sneak preview</h1>
+                        <h2>Sneak preview</h2>
                         <p class="gray-text">Quick preview of all snippets on your Clipboard for easy access.</p>
                       </div>
                     </div>
@@ -186,7 +204,7 @@
             </div>
 
             <div class="section h">
-                <div class="container">
+                <div class="container margin-top-md">
                     <div class="row">
                         <div class="col col-sm-12 col-md-1 ">
 
@@ -217,14 +235,14 @@
             </div>
 
             <div class="section i">
-                <h1 class="center-text">Clipboard for iOS and Mac OS</h1>
+                <h2 class="center-text margin-top-md">Clipboard for iOS and Mac OS</h2>
                 <p class="center-text gray-text">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
                 
-
-                <button>Download for iOS</button>
+            <section class="margin-top-sm">
+                <a href="#" class="btn-1">Download for iOS</a>
                 
-                <button>Download for Mac</button>
-
+                <a href="#" class="btn-2">Download for Mac</a>
+            </section>
             </div>
 
             <div class="footer">
@@ -235,43 +253,43 @@
     
             <!-- footer -->
     <section>
-    <footer class="footer">
+    <footer class="footer gray-footer margin-top-md">
         <div class="container py-5">
             <div class="row">
               <div class="col col-sm-12 col-md-2">
                 <img src="./images/logo.svg" alt="" class="center" id="footerimg"> 
               </div>
-              <div class="col">
-                Column
+
+              <div class="col col-sm-12 col-md-2">
+                <a href="#" class="footer-link">FAQs</a><br><br>
+                <a href="#" class="footer-link">Contact Us</a>
               </div>
+
               <div class="col">
-                Column
+                <a href="#" class="footer-link">Privacy Policy</a><br><br>
+                <a href="#" class="footer-link">Press Kit</a>
+              </div>
+
+              <div class="col">
+                <a href="#" class="footer-link">Install Guide</a>
+              </div>
+
+              <div class="col">
+                
+              </div>
+
+              <div class="col">
+                <ul>
+                    <li> <img src="./images/icon-facebook.svg" alt="" class="center"> </li>
+                    <li> <img src="./images/icon-twitter.svg" alt="" class="center"> </li>
+                     <li> <img src="./images/icon-instagram.svg" alt="" class="center"> </li>
+                 </ul>
               </div>
             </div>
           </div>
-        
-        
-        <a href="#" class="c footer-link">FAQs</a>
-        
-        <a href="#" class="center-text">Contact Us</a>
-        
-        <a href="#" class="center-text">Privacy Policy</a>
-        
-        <a href="#" class="center-text">Press Kit</a>
-        
-        <a href="#" class="center-text">Install Guide</a>
-        
-        <div>
-            <ul>
-           <li> <img src="/images/icon-facebook.svg" alt="" class="center"> </li>
-           <li> <img src="./images/icon-twitter.svg" alt="" class="center"> </li>
-            <li> <img src="./images/icon-instagram.svg" alt="" class="center"> </li>
-        </ul>
-        </div>
+
     </section>
     
     </footer>
-
-
 </body>
 </html>
